@@ -1,6 +1,6 @@
 print("Kryptonite Streamable Silent Aim Successfully Executed. | Enjoy Exploiting!")
 
-
+local hotkey = "t" -- toggle key
 local mouse = game.Players.LocalPlayer:GetMouse()
 
 
@@ -21,7 +21,7 @@ local Players = game:GetService("Players")
 
 -- // Vars
 local LocalPlayer = Players.LocalPlayer
-
+local accomidationfactor = 0.130340
 -- // Silent Aim Module
 local SilentAim = loadstring(game:HttpGet("https://pastebin.com/raw/2f0mGbMP"))()
 SilentAim.TeamCheck = false
